@@ -1,38 +1,57 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black !important;
+    font-size: 1rem;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+    color: #FFFFFF;
+    background-color: crimson;
+    border-radius: 8%;
+    border: solid 2px #FFFFFF;
+    margin: 20px;
+    padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.showDiv{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.showDiv button{
+
+    height: 100px;
+    width: 100px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.batman{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    background-color: rgb(223, 81, 105);
+    color: purple;
+    border: solid 5px #FFFFFF;
+    font-weight: bolder;
+    padding: 5px;
+    text-align: center;
+    
 }
